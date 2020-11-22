@@ -45,8 +45,8 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="linkedin.com/in/abdulgafar-yusuf-815a18157" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="github.com/abdulxs" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">    
@@ -65,7 +65,7 @@
                     
                     <div>
                         <h2 class="about__subtitle">I am Abdulgafar</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="about__text">A problem solver passionate about creating solutions using web technologies and resources.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -111,12 +111,24 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">75%</span>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                            </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-bootstrap skills__icon' ></i>
+                                <span class="skills__name">Bootstrap</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
+                                <i class='bx bxl-react skills__icon'></i>
                                 <span class="skills__name">React JS</span>
                             </div>
                             <div class="skills__bar skills__ux">
@@ -165,11 +177,11 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                    <form action="mail_handler.php" method="post" name="form" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" name="name" required>
+                        <input type="mail" placeholder="Email" class="contact__input" name="email" required>
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input" name="msg" placeholder="Enter Your Message Here..." required></textarea>
+                        <input type="submit" name="submit" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>
